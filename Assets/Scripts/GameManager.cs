@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    private Texture2D mouse;
     private static GameManager instance;
 
     void Awake()
