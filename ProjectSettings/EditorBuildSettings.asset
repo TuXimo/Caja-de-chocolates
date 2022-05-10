@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Puzzles/Point&Click Scene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Puzzles/PuzzleEjemplo.unity
+    path: Assets/Scenes/Puzzles/Puzzle Ejemplo.unity
     guid: 7a0f6a6b182f7af4aa50690b1f24e8bd
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/Cuarto.unity
+    guid: df64bd99ed46a7347b285cd1c9add5bc
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/Point & Click.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

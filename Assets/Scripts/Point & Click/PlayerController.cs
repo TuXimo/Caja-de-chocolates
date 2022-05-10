@@ -7,9 +7,29 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
     private Vector2 target;
-    [SerializeField] private float speed;
+    [SerializeField] private float speed = 4;
+    [SerializeField] private Sprite[] sprites;
+    private SpriteRenderer playerSR;
+    private Animator playerAnimator; 
+    
+    private void Awake()
+    {
+        playerSR = GetComponent<SpriteRenderer>();
+        playerAnimator = GetComponent<Animator>();
+    }
 
     private void Update()
+    {
+        Movement();
+        Animations();
+    }
+
+    private void OnCollisionStay2D(Collision2D col)
+    {
+        target = transform.position;
+    }
+
+    private void Movement()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -21,8 +41,10 @@ public class PlayerController : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, target,Time.deltaTime * speed);
     }
 
-    private void OnCollisionStay2D(Collision2D col)
+    private void Animations()
     {
-        target = transform.position;
+        playerAnimator.SetFloat("Horizontal",target.x);
+        playerAnimator.SetFloat("Vertical",target.y);
+        print(target);
     }
 }
