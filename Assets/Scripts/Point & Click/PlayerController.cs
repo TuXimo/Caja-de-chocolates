@@ -10,18 +10,24 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 4;
     [SerializeField] private Sprite[] sprites;
     private SpriteRenderer playerSR;
-    private Animator playerAnimator; 
+    private Animator playerAnimator;
+
+    [SerializeField] private bool isCreepy;
+    private static bool setCreepyPlayer = false;
     
     private void Awake()
     {
+        isCreepy = setCreepyPlayer;
         playerSR = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
     }
 
     private void Update()
     {
+        setCreepyPlayer = isCreepy;
         Movement();
         Animations();
+        RayCasting();
     }
 
     private void OnCollisionStay2D(Collision2D col)
@@ -45,6 +51,12 @@ public class PlayerController : MonoBehaviour
     {
         playerAnimator.SetFloat("Horizontal",target.x);
         playerAnimator.SetFloat("Vertical",target.y);
-        print(target);
+        playerAnimator.SetBool("isCreepy",setCreepyPlayer);
+        //print(target);
+    }
+
+    private void RayCasting()
+    {
+        Debug.DrawRay(transform.position,transform.right,Color.green);
     }
 }
