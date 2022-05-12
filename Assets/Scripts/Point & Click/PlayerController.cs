@@ -12,19 +12,17 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer playerSR;
     private Animator playerAnimator;
 
-    [SerializeField] private bool isCreepy;
-    private static bool setCreepyPlayer = false;
+    [SerializeField] private bool isCreepy, isMoving;
     
     private void Awake()
     {
-        isCreepy = setCreepyPlayer;
+        DontDestroyOnLoad(gameObject);
         playerSR = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        setCreepyPlayer = isCreepy;
         Movement();
         Animations();
         RayCasting();
@@ -33,6 +31,7 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionStay2D(Collision2D col)
     {
         target = transform.position;
+        isMoving = false;
     }
 
     private void Movement()
@@ -42,6 +41,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             target = new Vector2(mousePos.x, mousePos.y);
+            isMoving = true;
         }
         
         transform.position = Vector2.MoveTowards(transform.position, target,Time.deltaTime * speed);
@@ -51,8 +51,8 @@ public class PlayerController : MonoBehaviour
     {
         playerAnimator.SetFloat("Horizontal",target.x);
         playerAnimator.SetFloat("Vertical",target.y);
-        playerAnimator.SetBool("isCreepy",setCreepyPlayer);
-        //print(target);
+        playerAnimator.SetBool("isCreepy",isCreepy);
+        playerAnimator.SetBool("isMoving",isMoving);
     }
 
     private void RayCasting()
