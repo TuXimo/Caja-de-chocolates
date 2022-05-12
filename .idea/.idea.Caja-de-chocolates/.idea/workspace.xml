@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d46023d0-f1a4-48ba-9ac0-1d26b126edb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base/Character.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base/Character.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base/EffectInfoAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base/EffectInfoAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base/EffectsBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base/EffectsBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base/Modifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Base/Modifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor/BuiltinEffectsDataScriptableDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor/BuiltinEffectsDataScriptableDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor/TAnimGlobalDataScriptableDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor/TAnimGlobalDataScriptableDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor/TAnimPlayerBaseDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor/TAnimPlayerBaseDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor/TextAnimatorDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Editor/TextAnimatorDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/EffectsDefaultValues.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/EffectsDefaultValues.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Scriptables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Scriptables/BuiltinAppearancesDataScriptable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Scriptables/BuiltinAppearancesDataScriptable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Scriptables/BuiltinBehaviorsDataScriptable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Scriptables/BuiltinBehaviorsDataScriptable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Scriptables/BuiltinDataScriptableBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Scriptables/BuiltinDataScriptableBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Special Tags.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Special Tags/EventMarker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Special Tags/EventMarker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TAnimBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TAnimBuilder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TAnimGlobalDataScriptable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TAnimGlobalDataScriptable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TAnimPlayerBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TAnimPlayerBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TAnimTags.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TAnimTags.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TypewriterAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/TypewriterAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/CharsDisplayTimeAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/CharsDisplayTimeAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor/CharsDisplayTimeAttributeDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor/CharsDisplayTimeAttributeDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor/MinValueAttributeDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor/MinValueAttributeDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor/NotZeroAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor/NotZeroAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor/PositiveValueAttributeDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/Editor/PositiveValueAttributeDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/MinValueAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/MinValueAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/NotZeroAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/NotZeroAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/PositiveValueAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Attributes/PositiveValueAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/FormatUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/FormatUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/TAnimExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/TAnimExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/TextUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/TextUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Tween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Core/Utilities/Tween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Documentation &amp; Quick Start.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Documentation &amp; Quick Start.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Base/AppearanceBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Base/AppearanceBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Base/IAppearanceEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Base/IAppearanceEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/DiagonalExpandAppearance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/DiagonalExpandAppearance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/FadeAppearance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/FadeAppearance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/HorizontallExpandAppearance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/HorizontallExpandAppearance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/OffsetAppearance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/OffsetAppearance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/RotatingAppearance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/RotatingAppearance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/SizeAppearance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/SizeAppearance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/VerticalExpandAppearance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Defaults/VerticalExpandAppearance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Presets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Presets/PresetAppearance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Presets/PresetAppearance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Presets/PresetAppearanceValues.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Appearance Effects/Presets/PresetAppearanceValues.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Base/BehaviorBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Base/BehaviorBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Base/BehaviorSine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Base/BehaviorSine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Base/IBehaviorEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Base/IBehaviorEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/BounceBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/BounceBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/DangleBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/DangleBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/FadeBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/FadeBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/PendulumBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/PendulumBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/RainbowBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/RainbowBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/RotationBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/RotationBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/ShakeBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/ShakeBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/SizeBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/SizeBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/SlideBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/SlideBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/SwingBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/SwingBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/WaveBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/WaveBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/WiggleBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Defaults/WiggleBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Preset/PresetBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Preset/PresetBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Preset/PresetBehaviorValues.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Behavior Effects/Preset/PresetBehaviorValues.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Custom Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Custom Effects/AppearanceTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Custom Effects/AppearanceTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Custom Effects/BehaviorTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Custom Effects/BehaviorTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Custom Effects/CustomEffects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Custom Effects/CustomEffects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/ColorCurve.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/ColorCurve.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/EffectEvaluator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/EffectEvaluator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/EmissionControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/EmissionControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/FloatCurve.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/FloatCurve.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/PresetBaseValues.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Effects/Presets Base/PresetBaseValues.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/00 - Welcome.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/00 - Welcome.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Editor/EffectsTestingCustomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Editor/EffectsTestingCustomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Editor/UsageExampleCustomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Editor/UsageExampleCustomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 1A - Effects.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 1A - Effects.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 1B - Stacks.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 1B - Stacks.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 1C - Attributes.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 1C - Attributes.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 1D - Presets.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 1D - Presets.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 2 - Events.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 2 - Events.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 3 - Actions.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 3 - Actions.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 4 - TextOnEnable.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Example 4 - TextOnEnable.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Extra 1 - Testing Texts.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Extra 1 - Testing Texts.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Extra 2 - Testing Effects.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Extra 2 - Testing Effects.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Font.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Font/Lato-Regular.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Font/Lato-Regular.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Font/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Font/Lato-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Font/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Font/OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers/DefaultEffectsExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers/DefaultEffectsExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers/EffectsTesting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers/EffectsTesting.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers/EventExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers/EventExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers/UsageExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/Managers/UsageExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/SetTextOnEnable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Example/Scripts/SetTextOnEnable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Extra.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Extra/Typewriter Sound - Package.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Integrations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Integrations/Integrations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Integrations/Integrations.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/Integrations/PlayMaker - Integration.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/TextAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/TextAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/TextAnimatorPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/TextAnimatorPlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Sprites Juego/Dibujos/libroo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Sprites Juego/Dibujos/libroo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28zIQER1GaOwrztw71XQxIHVICC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d46023d0-f1a4-48ba-9ac0-1d26b126edb0" name="Changes" comment="" />
+      <created>1652212972278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652212972278</updated>
+      <workItem from="1652212975409" duration="855000" />
+      <workItem from="1652286987371" duration="416000" />
+      <workItem from="1652379251998" duration="7137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
