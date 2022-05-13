@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d46023d0-f1a4-48ba-9ac0-1d26b126edb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Caja-de-chocolates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Caja-de-chocolates/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator.meta" beforeDir="false" />
@@ -216,9 +217,18 @@
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/TextAnimator.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/TextAnimatorPlayer.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Febucci/Text Animator/TextAnimatorPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Sprites Juego/Dibujos/libroo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Sprites Juego/Dibujos/libroo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cuarto.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cuarto.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BackgroundController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/SceneTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/SceneTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/TypeWriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/TypeWriter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fondos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square/Square 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square/Square 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square/pointer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square/pointer.jpg.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +244,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -278,6 +289,7 @@
       <workItem from="1652212975409" duration="855000" />
       <workItem from="1652286987371" duration="416000" />
       <workItem from="1652379251998" duration="7137000" />
+      <workItem from="1652392930929" duration="4719000" />
     </task>
     <servers />
   </component>

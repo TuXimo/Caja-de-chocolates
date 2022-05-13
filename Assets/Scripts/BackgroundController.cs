@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,12 +7,24 @@ public class BackgroundController : MonoBehaviour
 {
 
     [SerializeField] private GameObject[] escenas;
+    [SerializeField] private GameObject cabeza;
+    
 
-    public int count = 1;
+    private static int count = 1;
+
+    public void AumentarContador()
+    {
+        count++;
+    }
 
     
     void Update()
     {
+        if (count >= 5)
+        {
+            cabeza.SetActive(true);
+        }
+        
         switch (count)
         {
             case 1:

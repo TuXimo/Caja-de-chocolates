@@ -10,15 +10,13 @@ public class SceneTransition : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        StartCoroutine(LoadLevelCoroutine(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadLevelCoroutine());
     }
 
-    private IEnumerator LoadLevelCoroutine(int levelIndex)
+    private IEnumerator LoadLevelCoroutine()
     {
         transitionAnimator.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);
-
-        SceneManager.LoadScene(levelIndex);
     }
 }
