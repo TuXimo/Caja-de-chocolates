@@ -11,7 +11,7 @@ public class TypeWriter : MonoBehaviour
     [SerializeField] [TextArea(3,10)] private string fullText;
     private string currentText = " ";
 
-    public bool isCanvas = false;
+    public bool invokeWhenFinish = false, destroyAdelantar = false;
     public UnityEvent unityEvent;
 
     private void Start()
@@ -29,8 +29,14 @@ public class TypeWriter : MonoBehaviour
             yield return new WaitForSeconds(delay); 
         }
 
-        if (isCanvas)
+        if (invokeWhenFinish)
         {
+            unityEvent.Invoke();
+        }
+
+        if (destroyAdelantar)
+        {
+            Destroy(GameObject.Find("Adelantar"));
             unityEvent.Invoke();
         }
     }

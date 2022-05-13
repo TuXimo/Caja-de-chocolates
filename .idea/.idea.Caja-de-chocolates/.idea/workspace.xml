@@ -6,14 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="d46023d0-f1a4-48ba-9ac0-1d26b126edb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Caja-de-chocolates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Caja-de-chocolates/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/Player/Player_Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animaciones/Player/Player_Down.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Sprites Juego/Jugador/pibe_nike_cminando_espalda.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Sprites Juego/Jugador/pibe_nike_cminando_espalda.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/UI/Crossfade.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animaciones/UI/Crossfade.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/img1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animaciones/img1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cuarto.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cuarto.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/SceneTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/SceneTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/TypeWriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/TypeWriter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/OneDrive/Documentos/Unity Projects/Testeos/Assets/Scripts/Ragdolls/Ragdoll.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,7 +75,7 @@
       <workItem from="1652286987371" duration="416000" />
       <workItem from="1652379251998" duration="7137000" />
       <workItem from="1652392930929" duration="4719000" />
-      <workItem from="1652444523504" duration="1817000" />
+      <workItem from="1652444523504" duration="6323000" />
     </task>
     <servers />
   </component>

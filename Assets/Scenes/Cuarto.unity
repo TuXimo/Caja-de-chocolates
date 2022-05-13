@@ -797,10 +797,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   fullText: "Fue muy repentino, casi le tom\xF3 por sorpresa."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1659759851}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &129673100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,10 +1211,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Quiz\xE1s en alg\xFAn rinc\xF3n muy profundo de sus recuerdos pueda
     sentir el ligero aroma a lim\xF3n del detergente de la cocina."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 781957258}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &210274287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1390,6 +1416,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1297027655}
         m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
         m_MethodName: AumentarContador
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1780417006}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: FinishLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1676,10 +1714,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Los ojos sin vida ahora inm\xF3viles, resecos e inyectados en su propia
     sangre."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1293095012}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &306870371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1935,6 +1986,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1780417006}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: StartLevel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2279,10 +2342,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Tom\xF3 un poco de tiempo y sus brazos hab\xEDan comenzado a entumecerse
     a mitad del trabajo, al final consigui\xF3 hacerlo."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1037148408}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &393457743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2742,6 +2818,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1780417006}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: StartLevel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3413,10 +3501,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   fullText: "Fue muy repentino, casi le tom\xF3 por sorpresa."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 944545143}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &549313557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3628,7 +3729,7 @@ GameObject:
   - component: {fileID: 573852286}
   - component: {fileID: 573852285}
   m_Layer: 0
-  m_Name: Adelantar (1)
+  m_Name: Adelantar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3784,7 +3885,7 @@ GameObject:
   - component: {fileID: 627539216}
   - component: {fileID: 627539215}
   m_Layer: 0
-  m_Name: Adelantar (1)
+  m_Name: Adelantar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4056,7 +4157,8 @@ MonoBehaviour:
   delay: 0.1
   fullText: "En este mundo, nunca sabes lo que te tocar\xE1. Siempre resultan grandes
     sorpresas, pero no todas son reales."
-  isCanvas: 1
+  invokeWhenFinish: 1
+  destroyAdelantar: 0
   unityEvent:
     m_PersistentCalls:
       m_Calls:
@@ -4969,6 +5071,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1780417006}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: StartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &807714823
 GameObject:
   m_ObjectHideFlags: 0
@@ -5666,10 +5780,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Lo hab\xEDa visto en la tele. Terapia de golpes, le llamaban. Dec\xEDan
     que era funcional para cualquier tipo de molestia. "
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 875995676}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &880705137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5825,7 +5952,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &896356218
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6830,6 +6957,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1780417006}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: StartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &963128359
 GameObject:
   m_ObjectHideFlags: 0
@@ -6885,10 +7024,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Su mente reproduc\xEDa el tan melodioso gorgoteo que hab\xEDa salido
     de su garganta en un ciclo infinito."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 344853797}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &963128362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7126,7 +7278,7 @@ GameObject:
   - component: {fileID: 1058261032}
   - component: {fileID: 1058261031}
   m_Layer: 0
-  m_Name: Adelantar (1)
+  m_Name: Adelantar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7518,6 +7670,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1780417006}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: StartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1176613117
 GameObject:
   m_ObjectHideFlags: 0
@@ -7648,10 +7812,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Ambos sab\xEDan c\xF3mo terminar\xEDa, una pena que su madre nunca predijo
     que \xE9l robar\xEDa el cuchillo antes."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 25705597}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1197487130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7695,6 +7872,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197487127}
   m_CullTransparentMesh: 1
+--- !u!1001 &1274457986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 939.67163
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 436.46603
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337259, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337268, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_Name
+      value: SceneTransition
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423404337268, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140939423657745930, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
 --- !u!1 &1293095012
 GameObject:
   m_ObjectHideFlags: 0
@@ -8390,10 +8632,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "La foto lo demuestra, \xBFNo? Solo ten\xEDa que esperar a que los par\xE1sitos
     lo consumieran."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 394335528}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1454849426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8450,7 +8705,7 @@ GameObject:
   - component: {fileID: 1619663580}
   - component: {fileID: 1619663579}
   m_Layer: 0
-  m_Name: Adelantar (1)
+  m_Name: Adelantar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8752,7 +9007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1671187693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8951,6 +9206,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775184511}
   m_CullTransparentMesh: 1
+--- !u!114 &1780417006 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8140939423404337258, guid: 4c40a2bef153fa14b87547ad5397839b, type: 3}
+  m_PrefabInstance: {fileID: 1274457986}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c971be5a3a5354387c2a19c678fb9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1789737042
 GameObject:
   m_ObjectHideFlags: 0
@@ -9006,10 +9272,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Su mente reproduc\xEDa el tan melodioso gorgoteo que hab\xEDa salido
     de su garganta en un ciclo infinito"
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 305532893}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1789737045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9108,10 +9387,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Todo rastro de limpieza y cari\xF1o hab\xEDan abandonado completamente
     la forma actual del juguete."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 517616367}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1822070172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9212,7 +9504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4965715504906429423, guid: f7548e7dddeea5648bd670da3217dcee, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7548e7dddeea5648bd670da3217dcee, type: 3}
@@ -9271,10 +9563,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Lo hab\xEDa visto en la tele. Terapia de golpes, le llamaban. Dec\xEDan
     que era funcional para cualquier tipo de molestia. "
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 191741002}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1861944118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9718,10 +10023,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "Ambos sab\xEDan c\xF3mo terminar\xEDa, una pena que su madre nunca predijo
     que \xE9l robar\xEDa el cuchillo antes."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1867948957}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1960498858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9820,10 +10138,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "\xBFC\xF3mo no iba a intentarlo entonces? Lo \xFAnico que tendr\xEDa
     que hacer era golpear m\xE1s fuerte."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 917057966}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1974386375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9922,10 +10253,23 @@ MonoBehaviour:
   delay: 0.05
   fullText: "\xBFCu\xE1nto tiempo habr\xEDa pasado desde entonces? El pegajoso y
     putrefacto aroma del interior del oso no eran respuestas suficientes."
-  isCanvas: 0
+  invokeWhenFinish: 0
+  destroyAdelantar: 1
   unityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 231772551}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1975354678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10152,7 +10496,7 @@ GameObject:
   - component: {fileID: 1995700947}
   - component: {fileID: 1995700946}
   m_Layer: 0
-  m_Name: Adelantar (1)
+  m_Name: Adelantar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

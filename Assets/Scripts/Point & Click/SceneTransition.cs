@@ -6,17 +6,17 @@ using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
     [SerializeField] private Animator transitionAnimator; 
-    [SerializeField] private float transitionTime = 1;
-
-    public void LoadNextLevel()
+    //Funciona
+    
+    public void StartLevel()
     {
-        StartCoroutine(LoadLevelCoroutine());
+        transitionAnimator.SetTrigger("End");
+        StartCoroutine("ChangeBool");
     }
 
-    private IEnumerator LoadLevelCoroutine()
+    private IEnumerator ChangeBool()
     {
-        transitionAnimator.SetTrigger("Start");
-
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(2);
+        transitionAnimator.SetBool("change",true);
     }
 }
