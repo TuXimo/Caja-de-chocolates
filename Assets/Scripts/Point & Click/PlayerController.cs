@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -29,7 +30,6 @@ public class PlayerController : MonoBehaviour
     {
         Movement();
         Animations();
-        RayCasting();
     }
 
     private void OnCollisionStay2D(Collision2D col)
@@ -66,8 +66,13 @@ public class PlayerController : MonoBehaviour
         playerAnimator.SetBool("isMoving",isMoving);
     }
 
-    private void RayCasting()
+
+    public GameObject collider;
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.DrawRay(transform.position,transform.right,Color.green);
+        if (col.CompareTag("Objeto"))
+        {
+            col.GetComponent<ObjetoInteractivo>().UnityEvent.Invoke();
+        }
     }
 }
