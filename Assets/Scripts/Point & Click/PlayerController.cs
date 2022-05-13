@@ -7,6 +7,10 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
     private Vector2 target;
+    private Vector3 direction;
+    private float distance;
+    
+    
     [SerializeField] private float speed = 4;
     [SerializeField] private Sprite[] sprites;
     private SpriteRenderer playerSR;
@@ -44,13 +48,20 @@ public class PlayerController : MonoBehaviour
             isMoving = true;
         }
         
+        //Logica moviento
+        
         transform.position = Vector2.MoveTowards(transform.position, target,Time.deltaTime * speed);
+        direction =new Vector3(target.x,target.y,transform.position.z)-transform.position;
+        distance = Vector2.Distance(transform.position, target);
+        if (distance <= 0.1f)
+            isMoving = false;
+
     }
 
     private void Animations()
     {
-        playerAnimator.SetFloat("Horizontal",target.x);
-        playerAnimator.SetFloat("Vertical",target.y);
+        playerAnimator.SetFloat("Horizontal",direction.x);
+        playerAnimator.SetFloat("Vertical",direction.y);
         playerAnimator.SetBool("isCreepy",isCreepy);
         playerAnimator.SetBool("isMoving",isMoving);
     }
