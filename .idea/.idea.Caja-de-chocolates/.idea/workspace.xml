@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d46023d0-f1a4-48ba-9ac0-1d26b126edb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Caja-de-chocolates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Caja-de-chocolates/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cuarto.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cuarto.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/ObjetoInteractivo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/ObjetoInteractivo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fullscreenToggle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/fullscreenToggle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +39,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Builds/Caja-de-chocolates\Empty.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="X:\Program Folder Files\Unity\Builds\Caja-de-chocolates" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -82,7 +81,7 @@
       <workItem from="1652379251998" duration="7137000" />
       <workItem from="1652392930929" duration="4719000" />
       <workItem from="1652444523504" duration="6323000" />
-      <workItem from="1652470349831" duration="3274000" />
+      <workItem from="1652470349831" duration="5334000" />
     </task>
     <servers />
   </component>
