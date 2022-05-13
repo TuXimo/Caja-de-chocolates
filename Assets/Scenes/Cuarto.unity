@@ -353,7 +353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 579, y: 367}
   m_SizeDelta: {x: 648.54, y: 270.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27740406
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3db92870a5c36ca4ca320238446e8f4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c604314aa9e59bc4bab55436d6e5a9fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1321,6 +1321,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &171359214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1457,6 +1469,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 32794906}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1774,7 +1798,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1780417006}
         m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
-        m_MethodName: FinishLevel
+        m_MethodName: StartLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2796,10 +2820,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1bc04f39025428749a0a94b0c50d3f2f, type: 3}
-    m_FontSize: 40
+    m_FontSize: 41
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
+    m_MinSize: 4
     m_MaxSize: 87
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -3738,6 +3762,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 32794906}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &517616370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4022,10 +4058,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1bc04f39025428749a0a94b0c50d3f2f, type: 3}
-    m_FontSize: 55
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
+    m_MinSize: 0
     m_MaxSize: 87
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -4636,7 +4672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb0d75d892a4f445bc7d29389ee9180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.1
+  delay: 0.05
   fullText: "En este mundo, nunca sabes lo que te tocar\xE1. Siempre resultan grandes
     sorpresas, pero no todas son reales."
   invokeWhenFinish: 1
@@ -5278,6 +5314,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 32794906}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6256,7 +6304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3db92870a5c36ca4ca320238446e8f4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c604314aa9e59bc4bab55436d6e5a9fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7619,6 +7667,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 32794906}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &941271443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7911,6 +7971,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 32794906}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9536,10 +9608,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1bc04f39025428749a0a94b0c50d3f2f, type: 3}
-    m_FontSize: 39
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
+    m_MinSize: 0
     m_MaxSize: 87
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -10479,6 +10551,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 32794906}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1359445936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11099,10 +11183,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1bc04f39025428749a0a94b0c50d3f2f, type: 3}
-    m_FontSize: 39
+    m_FontSize: 46
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
+    m_MinSize: 4
     m_MaxSize: 87
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -11362,6 +11446,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 32794906}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11699,7 +11795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1671187693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12295,8 +12391,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
-  fullText: "Su mente reproduc\xEDa el tan melodioso gorgoteo que hab\xEDa salido
-    de su garganta en un ciclo infinito"
+  fullText: "Despu\xE9s fueron palabras, frases, n\xFAmeros, letras apiladas formando
+    manchas de tinta casi tan oscuras como su contenido."
   invokeWhenFinish: 0
   destroyAdelantar: 1
   unityEvent:
@@ -12347,8 +12443,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Su mente reproduc\xEDa el tan melodioso gorgoteo que hab\xEDa salido de
-    su garganta en un ciclo infinito"
+  m_Text: "Despu\xE9s fueron palabras, frases, n\xFAmeros, letras apiladas formando
+    manchas de tinta casi tan oscuras como su contenido."
 --- !u!222 &1789737046
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12590,8 +12686,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
-  fullText: "Lo hab\xEDa visto en la tele. Terapia de golpes, le llamaban. Dec\xEDan
-    que era funcional para cualquier tipo de molestia. "
+  fullText: "Las primeras p\xE1ginas sol\xEDan ser dibujos, quiz\xE1s algo extra\xF1os,
+    que terminaron en una atenci\xF3n especial directa."
   invokeWhenFinish: 0
   destroyAdelantar: 1
   unityEvent:
@@ -12631,19 +12727,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1bc04f39025428749a0a94b0c50d3f2f, type: 3}
-    m_FontSize: 34
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
-    m_MaxSize: 87
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A\xFAn segu\xEDa fresca, el aroma segu\xEDa impregnado en su piel, los
-    ojos sin vida ahora inm\xF3viles, resecos e inyectados en su propia sangre."
+  m_Text: "Las primeras p\xE1ginas sol\xEDan ser dibujos, quiz\xE1s algo extra\xF1os,
+    que terminaron en una atenci\xF3n especial directa. "
 --- !u!222 &1861944119
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12712,7 +12808,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3db92870a5c36ca4ca320238446e8f4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c604314aa9e59bc4bab55436d6e5a9fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12979,7 +13075,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 869af064c49164746b18cc4095ea5c71, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 082acb38411c3bd419fc79ec682b3ebc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13050,8 +13146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
-  fullText: "Ambos sab\xEDan c\xF3mo terminar\xEDa, una pena que su madre nunca predijo
-    que \xE9l robar\xEDa el cuchillo antes."
+  fullText: "\xBFDe d\xF3nde habr\xE1 sacado tan magn\xEDfica idea? La sangre era
+    m\xE1s perfecta que la tinta."
   invokeWhenFinish: 0
   destroyAdelantar: 1
   unityEvent:
@@ -13102,8 +13198,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ambos sab\xEDan c\xF3mo terminar\xEDa, una pena que su madre nunca predijo
-    que \xE9l robar\xEDa el cuchillo antes."
+  m_Text: "\xBFDe d\xF3nde habr\xE1 sacado tan magn\xEDfica idea? La sangre era m\xE1s
+    perfecta que la tinta."
 --- !u!222 &1960498859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13973,6 +14069,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 32794906}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
