@@ -12,4 +12,10 @@ using Cursor = UnityEngine.Cursor;
 public class ObjetoInteractivo : MonoBehaviour
 {
     public UnityEvent UnityEvent;
+
+    public void SetLayer()
+    {
+        int layer = LayerMask.NameToLayer("UI");
+        gameObject.layer = layer;
+    }
 }

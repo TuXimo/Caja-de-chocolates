@@ -6,19 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d46023d0-f1a4-48ba-9ac0-1d26b126edb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Caja-de-chocolates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Caja-de-chocolates/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/img1 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/img1 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/img1.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/img1.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/img1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animaciones/img1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Jugador.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Jugador.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cuarto.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cuarto.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/Example.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/Example.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/ObjetoInteractivo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/ObjetoInteractivo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Point &amp; Click/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fullscreenToggle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fullscreenToggle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
@@ -86,6 +82,7 @@
       <workItem from="1652379251998" duration="7137000" />
       <workItem from="1652392930929" duration="4719000" />
       <workItem from="1652444523504" duration="6323000" />
+      <workItem from="1652470349831" duration="3274000" />
     </task>
     <servers />
   </component>

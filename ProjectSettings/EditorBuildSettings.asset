@@ -5,15 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Puzzles/CuartoModificado.unity
-    guid: df64bd99ed46a7347b285cd1c9add5bc
-  - enabled: 0
-    path: Assets/Scenes/Puzzles/Point & Click.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/Puzzles/Puzzle Ejemplo.unity
-    guid: 7a0f6a6b182f7af4aa50690b1f24e8bd
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 8d042b2e7761c9142b876f183be28225
   - enabled: 1
     path: Assets/Scenes/Cuarto.unity
     guid: 1bf728d5f253f334fad01421ed40ce96
